@@ -11,11 +11,13 @@ __status__ = "Development"
 __description__ = "Module for generic class to handle errors of a given intance. It displays error messages and hold a status of generic instance error status. Depending on if the instance is working properly or not. The meaning of this class to be imported at any instance to handle malfunctions and errors."
 __file__ = "error_display.py"
 __class__ ="ErrorDisplay"
+__dependencies__ = ["DisplayMsg"]
 #--------------------------------------------------------------------
 #Version
 #--------------------------------------------------------------------
 __version_stage__ = "Pre_alpha"
 __version_number__ = "0.1"
+__version_date__ = "20140917"
 __version_risk__ = "This current version is in Pre-alpha version, which meaning that the program can crash or perform other unrespected behavoiurs."
 __version_modification__ = "The development project has just been created."
 __version_next_update__ = "Implementation of Error warnings and exceptions."  
